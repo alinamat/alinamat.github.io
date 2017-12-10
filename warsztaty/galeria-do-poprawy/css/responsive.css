@@ -1,0 +1,31 @@
+#gallery {
+    width: 100%;
+}
+
+/*ustawiamy szerokosc na 100% resetujemy galerie by zrobila sie responsywna*/
+
+figure {
+    width: 33%;
+}
+
+/*wielkosc obrazka w %*/
+
+@media screen and (max-width: 480px) {
+    figure {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 481px) (max-width: 768px) {
+    figure {
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 769px) (max-width: 992px) {
+    #gallery {
+        width: 100%;
+    }
+
+
