@@ -16,7 +16,10 @@ form label {
     display: block;
 }
 
-form textarea, form select, input[type="text"], input[type="email"] {
+form textarea, 
+form select, 
+input[type="text"], 
+input[type="email"] {
     background-color: #2b4a64;
     width: 300px;
     height: 25px;
