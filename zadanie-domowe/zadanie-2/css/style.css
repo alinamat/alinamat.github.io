@@ -1,24 +1,27 @@
-* {
-    margin: 0;
-    padding: 0;
+body {
     box-sizing: border-box;
     font-family: "Verdana", sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
 
 #main-header {
     background-image: url(../img/man-1.jpg);
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 }
 
 div {
-    color: burlywood;
     text-transform: uppercase;
+    color: black;
     position: relative;
     text-align: left;
     top: 50%;
     bottom: 50%;
-    padding-left: 50px;
+    padding-left: 100px;
+    padding: 30px;
+    
 }
