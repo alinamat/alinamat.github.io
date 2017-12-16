@@ -1,0 +1,132 @@
+/******* Style *******/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Lato, sans-serif;
+    background-color: white;
+    color: #291f1a;
+    font-weight: 300px;
+    position: 100%;
+}
+
+/* General styles - end */
+
+/****Navigation start******/
+nav#main-nav {
+    width: 100%;
+    position:fixed;
+    text-align: right;
+    top: 0;
+    color: #1ac056;
+    background-color: #ffffff; 
+}
+
+nav#main-nav > ul  {
+    float: right;
+}
+nav#main-nav > ul > li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+}
+
+nav#main-nav > ul > li.menu-item{
+    display: inline-block;
+    width: 200px;
+    font-size: 20px;
+    margin-right: 20px;
+    
+}
+
+#main-nav > ul > li > a {
+    text-decoration: none;
+}
+
+#main-nav > ul > li > a:hover {
+    color: #9a1ac0;
+}
+ 
+
+/* Navigation end*/
+
+/*Header start*/
+
+#main-header {
+    background-image: url("../img/header-background.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+#main-header .main-header-content {
+    text-align: center;
+    padding: 50px;
+    padding: 30vh;
+}
+
+#main-header .main-header-content h1 {
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    font-size: 3em;
+}
+#main-header .main-header-content h1 span {
+    color: #1ac056;
+}
+#main-header .main-header-content h2 {
+    font-weight: 300;
+    font-size: 2em;
+}
+
+/*header end*/
+
+/*About start*/
+#about {
+    background-color: #f9fcfe;
+    overflow: hidden;
+    width: 100%;
+}
+
+#about > figure {
+    width: 50%; 
+    float: left;
+    margin: 0;
+}
+
+#about figure > img  {
+    max-width: 350px;
+    max-height: 350px;
+    margin-left: 200px;
+    border-radius: 15px;
+    border: 15px 
+}
+
+#about > article {
+    width: 50%;
+    float: left;
+}
+
+#about > h2 {
+    text-align: center;
+    font-weight: 400;
+}
+
+#about > h2 > span {
+    color: #1ac056;
+    font-weight: 700; 
+}
+
+/*About end*/
+
+
+
+
+
+
+
+
+
