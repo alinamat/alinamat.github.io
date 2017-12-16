@@ -12,8 +12,8 @@
             <label for="imie">Imię:</label>
             <input type="text" name="imie" id="imie"> <br/>
 
-            <label for="last-name">Nazwisko:</label>
-            <input type="text" name="nazwisko" id="last-name"> <br/>
+            <label for="nazwisko">Nazwisko:</label>
+            <input type="text" name="nazwisko" id="nazwisko"> <br/>
 
             <label for="email">e-mail:</label>
             <input type="text" name="email" id="email"> <br/>
@@ -23,24 +23,26 @@
 
             <label for="miasto">Wybierz miasto:</label>
             <select id="miasto">
-            <option value="krakow">Krakow</option>
-            <option value="warszawa">Warszawa</option>
-            <option value="gdansk">Gdańsk</option>
-        </select>
+                <option value="krakow">Krakow</option>
+                <option value="warszawa">Warszawa</option>
+                <option value="gdansk">Gdańsk</option>
+            </select>
 
             <label for="gender">Płeć:</label>
             <input type="radio" name="gender" value="male" checked> Kobieta<br>
 
             <input type="radio" name="gender" value="female"> Mężczyzna <br>
+            
+            <label for="wiadomosc">Wiadomość</label>
+            <textarea maxlength="500" id="wiadomosc" name="wiadomosc"></textarea> 
 
-            <textarea rows="7" cols="50">Wyślij nam wiadomość</textarea> <br>
+           <label>
+            <input type="checkbox" name="zgoda" value="tak" checked>
+            Wyrażam zgodę na przetwarzanie danych osobowych
+            </label> <br>
 
-            <input type="checkbox" name="zgoda" value="zgoda">Wyrażam zgodę na przetwarzanie danych osobowych <br>
-
-            <label for="submit">Wyślij</label>
             <input type="button" value="Wyślij" id=submit>
         </form>
     </div>
 </body>
-
 </html>
