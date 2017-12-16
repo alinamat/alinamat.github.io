@@ -17,6 +17,10 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
+span {
+    color: #1ac056;
+}
+
 /* ----------GENERAL STYLE END------- */
 
 /*-------NAVIGATION STYLE START--------*/
@@ -79,9 +83,8 @@ nav#main-nav > ul > li.menu-item{
     font-family: "Roboto", sans-serif;
     font-size: 3em;
 }
-#main-header .main-header-content h1 span {
-    color: #1ac056;
-}
+
+
 #main-header .main-header-content h2 {
     font-weight: 300;
     font-size: 2em;
@@ -121,23 +124,19 @@ nav#main-nav > ul > li.menu-item{
     
 }
 
-#about > h2 > span {
-    color: #1ac056;
-    font-weight: 700; 
-}
+
 
 /*----------ABOUT STYLE END--------*/
 
 
 /*---------SKILLS STYLE START-----------*/
 
-#skills > h2 > span {
-    color: #1ac056;
-    font-weight: 700;
-} 
+
 
 #skills > p {
     text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 #skills-icons > figure {
@@ -149,12 +148,94 @@ nav#main-nav > ul > li.menu-item{
     margin-right: auto;
     text-align: center;
 }
+
+.contact-data {
+    text-align: left;
+}
+
     
 
 
 /*-------------SKILLS STYLE END---------*/
 
 
+/*-----------PORTFOLIO START----------*/
+
+.portfolio-item {
+    height: 350px;
+    width: 33%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    position: relative; 
+}
+
+#portfolio-items {
+    font-size: 0;
+}
+
+#portfolio-item-1 {
+    background-image: url("../img/portfolio1.jpg");
+}
+
+#portfolio-item-2 {
+    background-image: url("../img/portfolio2.jpg");
+}
+
+#portfolio-item-3 {
+    background-image: url("../img/portfolio3.jpg");
+}
+
+#portoflio #portfolio-items {
+    text-align: center;
+    font-size: 0;
+}
+
+#portfolio #portfolio-items .portfolio-item .item-mask {
+    background-color: rgba(42, 61, 79, 0.8);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    font-size: initial;   
+}
+
+#portfolio #portfolio-items .portfolio-item .item-mask:hover {
+    opacity: 1;
+}
+
+#portfolio #portfolio-items .portfolio-item .item-mask .item-content {
+    height: 330px;
+    border: 1px solid #fff;
+    margin: 10px;
+    position: relative;
+}
+
+#portfolio #portfolio-items .portfolio-item .item-mask .item-content .item-content-inner {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+/*-----------PORTFOLIO END------------*/
+
+
+
+
+/*----------CONTACT START----------*/
+
+
+
+/*---------CONTACT END-------------*/
 
 
 
