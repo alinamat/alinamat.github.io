@@ -21,7 +21,7 @@
 //}
 
 
-! (8 >4 ) ? console.log('Prawda'): console.log("falsz");
+//! (8 >4 ) ? console.log('Prawda'): console.log("falsz");
 
 
 
