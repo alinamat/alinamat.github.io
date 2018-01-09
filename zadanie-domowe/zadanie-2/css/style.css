@@ -2,7 +2,7 @@ body {
     box-sizing: border-box;
     font-family: "Verdana", sans-serif;
     margin: 0;
-    padding: 0;
+/*    padding: 0;*/
 }
 
 
@@ -16,12 +16,12 @@ body {
 
 div {
     text-transform: uppercase;
-    color: black;
+    color: white;
     position: relative;
     text-align: left;
     top: 50%;
     bottom: 50%;
-    padding-left: 100px;
-    padding: 30px;
+/*    padding-left: 100px;*/
+/*    padding: 30px;*/
     
 }

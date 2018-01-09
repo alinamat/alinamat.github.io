@@ -1,0 +1,31 @@
+body {
+    background-color: yellow;
+    
+}
+
+p {
+    background-color: lightseagreen;
+    
+}
+
+span {
+    background-color: red;
+}
+
+#relatywny {
+    position: relative;
+    top: 40px;
+    left: 100px;
+    background-color: skyblue;
+}
+
+#absolutny {
+    position: absolute;
+    background-color: orange;
+    top: 50px;
+}
+
+#kontener {
+    position: relative;
+    
+}

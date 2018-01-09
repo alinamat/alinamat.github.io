@@ -27,7 +27,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 50vh;
-        color: black;
+        color: white;
     }
 }
 
@@ -37,5 +37,5 @@
         font-size: 2vh;
         text-align: center;
         padding: 30px;
-/*        color: white;*/
+        color: black;
 }
