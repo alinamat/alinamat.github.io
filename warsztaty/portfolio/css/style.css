@@ -233,7 +233,24 @@ nav#main-nav > ul > li.menu-item{
 
 /*----------CONTACT START----------*/
 
+.contact {
+    background-color: #213b50;
+    color: white;
+    font: Lato; 
+    font-weight: 200px;
+    padding: 10px;
+    
+}
 
+#contact-social-icons {
+    width: 50%;
+    height: 50%;
+}
+
+
+.contact-form {
+    float: left;
+}
 
 /*---------CONTACT END-------------*/
 
