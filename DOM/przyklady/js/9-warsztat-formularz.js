@@ -5,11 +5,10 @@
 //
 //
 
-document.getElementById("imie", "nazwisko").addEventListener("onsubmit", function(e));
-console.log(e);
-                                                            
+var imieKandydata = document.getElementById ("imie");
+var nazwiskoKandydata = document.getElementById ("nazwisko");
+
 function pobierzImie(e) {
     e.preventDefault();
-    console.log(value);
-    console.log(value);
+    console.log(imieKandydata.value, nazwiskoKandydata.value);
 }
