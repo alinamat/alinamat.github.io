@@ -1,7 +1,7 @@
 $(function(){
-//   $("p").click(function(){
-//      $("p").hide(4000); 
-//   }); 
+   $("p").click(function(){
+      $("p").hide(4000); 
+   }); 
     
 //    $("p").hide(3000).show(1000);
 //    
@@ -14,6 +14,15 @@ $(function(){
         $("h3").animate({"font-size": "2rem", "margin-left": "0px"}, 1000);
     }
     
-    $("h3").animate({"font-size": "3em", "margin-left": "50px"}, 1000, animacja);
+    $("h3").animate({
+        "font-size": "3em", 
+        "margin-left": "50px"}, 1000, animacja);
     
 });
+
+
+function changeColor() {square.css({'background-color': "blue", "transition": "5s"});
+
+function addText(){
+    square.html('<span>animacja zakonczona</span>');
+}

@@ -15,6 +15,9 @@ $(function(){
         });
     });
     
+    $('prev-slide').click(function(){
+        console.log("tra");
+    })
 })
 
 
