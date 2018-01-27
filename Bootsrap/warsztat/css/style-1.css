@@ -15,6 +15,11 @@ header#main-header {
     color: white;
 }
 
+#main-nav {
+    background-color: aqua;
+    opacity: 0.9;
+}
+
 #main-nav a.navbar-brand {
     color: white;
 }
@@ -26,6 +31,35 @@ header#main-header {
 h3 {
     font-style: italic; 
 }
+
+/*servies*/
+.row {
+    text-align: center;
+    font-size: 20px;
+}
+
+#kwadrat {
+    height: 50px;
+    width: 50px;
+    border: solid;
+    border-radius: 50px;
+    color: aqua;
+    position: relative;
+    margin: 6px auto;
+}
+
+#kwadrat .fa {
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    margin: 0 auto;
+    
+    
+}
+/*servies END*/
+
+
+
 
 
 
