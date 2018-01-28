@@ -32,6 +32,10 @@ h3 {
     font-style: italic; 
 }
 
+#main-nav.scroll {
+    color: aqua;
+}
+
 /*servies*/
 .row {
     text-align: center;
@@ -167,13 +171,14 @@ h3 {
 
 /************ICONS**************/
 .contact-icon .fa {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     border-radius: 60px;
     border: solid;
     background-color: black;
     color: white;
     font-size: 40px;
+    line-height: 60px;
     
 }
 .contact-icon .fa:hover {
@@ -189,21 +194,35 @@ h3 {
 /**************team END**************/
 
 /************contact form***************/
-#contact {
+#contact-form {
     background-image: url(../img/footer/world-map.jpg);
-    color: white;
+    height: 600px;
+    color: white; 
+    padding-top: 40px;
 }
 
+.container {
+    margin-top: 30px;
+}
 .section-content {
-    text-align: center;
-    
+    text-align: center;  
 }
 
 .btn {
-    
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+}
+/************contact form END***************/
+
+/************footer*********/
+
+.footer {
+    padding-top: 20px;
 }
 
-/************contact form END***************/
+
+/************footer END*********/
 
 
 
