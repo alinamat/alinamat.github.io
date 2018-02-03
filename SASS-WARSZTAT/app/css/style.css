@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Open Sans"; }
+
+#top {
+  min-height: 100vh;
+  background-image: url(../image/background.png);
+  background-color: cover; }
+
+.tytul {
+  margin-top: 30px;
+  text-align: center; }
+
+i, span {
+  color: #ecd407; }
+
+.blabla {
+  margin-top: 100px;
+  margin-left: 700px;
+  font-size: 30px; }
+
+.form-color {
+  margin-top: 20px;
+  margin-left: 700px;
+  width: 500px;
+  background-color: #001d8a; }
+
+btn {
+  margin-bottom: 50px; }
+
+.footer {
+  background-color: #292929;
+  text-align: center; }
+
+i {
+  font-size: 30px; }

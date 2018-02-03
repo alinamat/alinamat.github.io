@@ -1,0 +1,11 @@
+@mixin start {
+   margin: 0;
+   padding: 0;
+   color: $white;
+
+}
+
+@mixin pozycja($top, $left) {
+   margin-top: $top;
+   margin-left: $left;
+}

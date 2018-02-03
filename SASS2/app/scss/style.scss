@@ -1,0 +1,41 @@
+@import 'zmienne';
+
+body {
+    color: $base-color;
+    font-family: $base-font-family;
+    max-width: $max-width;
+    margin: 0 auto;
+    font-size: $base-font-size;
+    background-color: $bg-color;
+    
+};
+
+@mixin link-style( $color, $font-size ) {
+    color: $color;
+    font-size: $font-size;
+}
+
+nav {
+    
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: none;
+        
+        li {
+            display: inline-block;
+        }
+        a {
+            @include link-style (red, 25px);
+        }
+    }
+}
+
+.linki {
+    p {
+        a {
+            @include link-style(yellow, 35px);
+        }
+    }
+}

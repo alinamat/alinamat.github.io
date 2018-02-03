@@ -1,0 +1,22 @@
+body {
+  color: #220000;
+  font-family: "Arial";
+  max-width: 760px;
+  margin: 0 auto;
+  font-size: 16px;
+  background-color: grey; }
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: none; }
+  nav ul li {
+    display: inline-block; }
+  nav ul a {
+    color: red;
+    font-size: 25px; }
+
+.linki p a {
+  color: yellow;
+  font-size: 35px; }
